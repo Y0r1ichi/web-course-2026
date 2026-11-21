@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кобальт — керамическая мастерская</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="header">
+      <a class="logo" href="#top">Кобальт</a>
+      <nav class="nav" aria-label="Главное меню">
+        <a href="#classes">Занятия</a>
+        <a href="#about">О студии</a>
+        <a href="#contact">Запись</a>
+      </nav>
+      <button class="burger" type="button" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="hero__text">
+        <h1>Лепим посуду своими руками</h1>
+        <p>Мастер-классы по керамике во Франкфурте: от первой чашки до собственного сервиза. Материалы и обжиг включены.</p>
+        <a class="btn" href="#contact">Записаться на занятие</a>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <div class="vase"></div>
+      </div>
+    </section>
+
+    <section class="classes" id="classes">
+      <h2>Занятия</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card__icon">1</div>
+          <h3>Первая чашка</h3>
+          <p>Разовое занятие на 2 часа. Лепка вручную, глазурь на выбор.</p>
+          <span class="card__price">35 €</span>
+        </article>
+        <article class="card">
+          <div class="card__icon">2</div>
+          <h3>Гончарный круг</h3>
+          <p>Четыре встречи: центровка, цилиндр, чаша, ручки.</p>
+          <span class="card__price">160 €</span>
+        </article>
+        <article class="card">
+          <div class="card__icon">3</div>
+          <h3>Сервиз для дома</h3>
+          <p>Два месяца работы над набором из шести предметов.</p>
+          <span class="card__price">390 €</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>О студии</h2>
+      <p>Мы работаем с 2018 года. В группе не больше шести человек, поэтому мастер успевает помочь каждому. Готовые работы обжигаются в нашей печи и ждут вас через две недели.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Запись на занятие</h2>
+      <form class="form">
+        <label class="form__field">
+          <span>Имя</span>
+          <input type="text" name="name" placeholder="Как вас зовут">
+        </label>
+        <label class="form__field">
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@example.com">
+        </label>
+        <label class="form__field form__field--wide">
+          <span>Сообщение</span>
+          <textarea name="message" rows="4" placeholder="Какое занятие вас интересует?"></textarea>
+        </label>
+        <button class="btn form__btn" type="button">Отправить</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <span>© 2026 Кобальт</span>
+      <span>Франкфурт-на-Майне, Берлинер штрассе, 12</span>
+    </footer>
+
+  </div>
+</body>
+</html>

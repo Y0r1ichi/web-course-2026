@@ -106,7 +106,7 @@ a { color: inherit; }
 .menu-toggle:checked + .burger span:nth-child(2) { opacity: 0; }
 .menu-toggle:checked + .burger span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
-/* ---- Меню: на мобильном и планшете скрыто, открывается чекбоксом ---- */
+/* ---- Меню: скрыто, открывается чекбоксом на любой ширине ---- */
 .nav { display: none; }
 
 .menu-toggle:checked ~ .nav {
@@ -284,6 +284,14 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   .form__btn { width: auto; justify-self: start; }
 
   .footer { flex-direction: row; justify-content: space-between; }
+
+  /* Выпадающее меню на планшете и десктопе — компактная панель справа */
+  .menu-toggle:checked ~ .nav {
+    left: auto;
+    min-width: 260px;
+    border: 1px solid var(--mist);
+    border-radius: 12px;
+  }
 }
 
 /* ===== Десктоп: от 1200px ===== */
@@ -300,21 +308,6 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   .about   { grid-column: 1 / 6; grid-row: 4; }
   .contact { grid-column: 6 / -1; grid-row: 4; }
   .footer  { grid-row: 5; }
-
-  /* Меню в строку вместо гамбургера */
-  .burger, .menu-toggle { display: none; }
-  .nav,
-  .menu-toggle:checked ~ .nav {
-    display: flex;
-    flex-direction: row;
-    position: static;
-    gap: 32px;
-    padding: 0;
-    background: none;
-    border: none;
-    box-shadow: none;
-  }
-  .nav a { min-height: 44px; }
 
   .hero { grid-template-columns: 7fr 5fr; }
   .hero__art { height: 440px; }

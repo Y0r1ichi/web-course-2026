@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Todo-list</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <script type="module" src="controller.js"></script>
 </head>
 <body>
   <main class="app">
@@ -17,7 +17,7 @@
     </form>
     <p class="warning" id="warning" role="alert" hidden>Введите текст задачи</p>
 
-    <p class="counter" id="counter">Осталось: 0, Выполнено: 0</p>
+    <p class="counter" id="counter">Всего: 0, Осталось: 0, Выполнено: 0</p>
 
     <div class="filters" id="filters">
       <button type="button" class="filter is-active" data-filter="all">Все</button>

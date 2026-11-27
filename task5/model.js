@@ -1,4 +1,4 @@
-// MODEL: состояние игры и правила. Ничего не знает про DOM, звук и таймеры.
+
 
 export const COLORS = ['green', 'red', 'yellow', 'blue'];
 

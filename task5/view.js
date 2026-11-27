@@ -1,4 +1,4 @@
-// VIEW: DOM и звук (вывод пользователю). Игровой логики здесь нет.
+
 
 const FREQUENCIES = { green: 330, red: 262, yellow: 220, blue: 165 };
 

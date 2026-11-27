@@ -12,9 +12,9 @@
 ## Запуск
 
 - GitHub: https://github.com/Y0r1ichi/web-course-2026
-- Сайт: https://y0r1ichi.github.io/web-course-2026/task5/
+- Сайт: https://y0r1ichi.github.io/web-course-2026/task5/ 
 
-## Как устроено
+##  Как устроено
 - Показ последовательности — `async/await` + `Promise` с `setTimeout`.
 - Пока идёт показ, фаза равна `showing`, и клики игнорируются.
 - Все таймеры регистрируются в `createTimers`; при новой игре вызывается `cancelAll()`,

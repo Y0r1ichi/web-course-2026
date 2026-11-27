@@ -15,6 +15,7 @@ export function createModel() {
     state.phase = 'idle';
   }
 
+  
   function addStep() {
     const index = Math.floor(Math.random() * COLORS.length);
     state.sequence.push(COLORS[index]);

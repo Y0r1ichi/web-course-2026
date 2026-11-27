@@ -11,8 +11,8 @@
 
 ## Запуск
 
-- GitHub: https://github.com/Y0r1ichi/web-course-2026
-- Сайт: https://y0r1ichi.github.io/web-course-2026/task5/ 
+- GitHub:  https://github.com/Y0r1ichi/web-course-2026
+- Сайт:  https://y0r1ichi.github.io/web-course-2026/task5/ 
 
 ##  Как устроено
 - Показ последовательности — `async/await` + `Promise` с `setTimeout`.

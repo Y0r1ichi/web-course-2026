@@ -7,7 +7,8 @@
 
 ## Запуск
 
-file:///Users/admin/vs%20code/year3/web-course-2026/task4/index.html
+GitHub: https://github.com/Y0r1ichi/web-course-2026
+Сайт: https://y0r1ichi.github.io/web-course-2026/task4/
 
 ## Структура
 

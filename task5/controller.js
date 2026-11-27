@@ -6,7 +6,6 @@ const LIGHT_MS = 500;   // сколько горит кнопка при пок�
 const PAUSE_MS = 250;   // пауза между кнопками
 const CLICK_MS = 250;   // подсветка при клике игрока
 
-
 function createTimers() {
   const ids = new Set();
 

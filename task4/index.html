@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Быки и коровы</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="controller.js"></script>
+</head>
+<body>
+  <main class="game">
+    <header class="game__header">
+      <h1>Быки и коровы</h1>
+      <p id="counter" class="game__counter">Попыток: 0</p>
+    </header>
+
+    <p id="message" class="message" role="status" aria-live="polite"></p>
+
+    <form id="guess-form" class="guess" autocomplete="off" novalidate>
+      <label class="guess__label" for="guess-input">Ваше число</label>
+      <div class="guess__row">
+        <input id="guess-input" class="guess__input" type="text" inputmode="numeric" placeholder="1234">
+        <button id="submit-btn" class="btn btn--primary" type="submit">Попытка № 1</button>
+      </div>
+      <p id="error" class="error" role="alert"></p>
+    </form>
+
+    <section class="history-block" aria-label="История попыток">
+      <p id="history-empty" class="history__empty">Пока нет попыток. Введите первое число.</p>
+      <ol id="history" class="history"></ol>
+    </section>
+
+    <footer class="actions">
+      <button id="giveup-btn" class="btn" type="button">Сдаться и показать ответ</button>
+      <button id="newgame-btn" class="btn" type="button">Новая игра</button>
+    </footer>
+  </main>
+</body>
+</html>

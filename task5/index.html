@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <h1>Simon</h1>
+    <p class="level">Уровень: <span id="level">0</span></p>
+    <p class="status" id="status">Нажмите «Старт»</p>
+
+    <div class="board">
+      <button class="pad pad--green"  data-color="green"  aria-label="Зелёный"></button>
+      <button class="pad pad--red"    data-color="red"    aria-label="Красный"></button>
+      <button class="pad pad--yellow" data-color="yellow" aria-label="Жёлтый"></button>
+      <button class="pad pad--blue"   data-color="blue"   aria-label="Синий"></button>
+      <button class="start" id="start">Старт</button>
+    </div>
+  </main>
+  <script type="module" src="controller.js"></script>
+</body>
+</html>
